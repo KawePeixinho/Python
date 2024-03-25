@@ -1,0 +1,45 @@
+import random #importando a biblioteca de numeros aleatórios
+
+lista2 = ['nome', 'velho', 'idoso'] #lista de palavras 
+number_random = random.randint(0,2) #sorteio da palavra aleatoria
+
+printar = lista2[number_random] #armazena a palavra sorteada 
+
+print(printar) #usado para testar o sistema
+
+letra_digitada = input('digite uma letra: ')
+guardar_letra = []
+comparar = letra_digitada in printar
+
+while comparar:
+
+    guardar_letra.append(letra_digitada)
+    print('nice')
+    
+    print(guardar_letra)
+    letra_digitada = input('digite uma letra: ')
+
+
+
+    # if comparar:
+    #     print('nice')
+    #     letra = [letra_digitada]
+    #     print(letra)
+    #     break
+    # else:
+    #     print('fail')
+
+
+
+
+# lista3 = [
+#     'nome','feijao','arroz','macarrao'
+# ]
+
+# palavra = 'arroz'
+
+# letra_digitada = input('digite uma letra: ')
+
+# comparar = letra_digitada in palavra
+
+# print(comparar)
