@@ -9,3 +9,4 @@ string = 'kawe' #criando uma variavel chamada string
 
 print(string.capitalize()) #metodo string que retorna a primeira letra maiuscula
 
+print(string.zfill(15)) #preenche com a quantidade definida de zeros a esquerda da variavel
